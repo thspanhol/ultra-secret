@@ -9,7 +9,7 @@ function Login(props) {
             if(props.name === "mikafick" && props.password === "18032023") {
                 props.setRedirect(true);
             } else {
-                alert("Usuário e/ou senha errados");
+                alert("Usuário e/ou senha errados.");
             }
         }}>Revelar</button>
       </div>
